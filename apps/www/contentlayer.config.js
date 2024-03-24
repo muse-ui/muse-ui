@@ -176,5 +176,11 @@ export default makeSource({
         },
       ],
     ],
+    esbuildOptions: (options) => {
+      options.define = {
+        "process.env": JSON.stringify(process.env),
+      };
+      return options;
+    },
   },
 })

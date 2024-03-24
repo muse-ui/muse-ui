@@ -12,6 +12,7 @@ import { DemoPaymentMethod } from "./components/payment-method"
 import { DemoReportAnIssue } from "./components/report-an-issue"
 import { DemoShareDocument } from "./components/share-document"
 import { DemoTeamMembers } from "./components/team-members"
+import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Cards",
@@ -38,14 +39,14 @@ export default function CardsPage() {
     <>
       <div className="md:hidden">
         <Image
-          src="/examples/cards-light.png"
+          src={`${basePath}/examples/cards-light.png`}
           width={1280}
           height={1214}
           alt="Cards"
           className="block dark:hidden"
         />
         <Image
-          src="/examples/cards-dark.png"
+          src={`${basePath}/examples/cards-dark.png`}
           width={1280}
           height={1214}
           alt="Cards"

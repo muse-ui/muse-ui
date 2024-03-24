@@ -37,6 +37,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip"
+import { basePath } from "@/constants"
 
 const users = [
   {
@@ -99,7 +100,7 @@ export function CardsChat() {
         <CardHeader className="flex flex-row items-center">
           <div className="flex items-center space-x-4">
             <Avatar>
-              <AvatarImage src="/avatars/01.png" alt="Image" />
+              <AvatarImage src={`${basePath}/avatars/01.png`} alt="Image" />
               <AvatarFallback>OM</AvatarFallback>
             </Avatar>
             <div>

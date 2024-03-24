@@ -14,6 +14,7 @@ import {
 } from "@/components/page-header"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import MailPage from "@/app/(app)/examples/mail/page"
+import { basePath } from "@/constants"
 
 export default function IndexPage() {
   return (
@@ -43,14 +44,14 @@ export default function IndexPage() {
       <ExamplesNav className="[&>a:first-child]:text-primary" />
       <section className="overflow-hidden rounded-lg border bg-background shadow-md md:hidden md:shadow-xl">
         <Image
-          src="/examples/mail-dark.png"
+          src={`${basePath}/examples/mail-dark.png`}
           width={1280}
           height={727}
           alt="Mail"
           className="hidden dark:block"
         />
         <Image
-          src="/examples/mail-light.png"
+          src={`${basePath}/examples/mail-light.png`}
           width={1280}
           height={727}
           alt="Mail"

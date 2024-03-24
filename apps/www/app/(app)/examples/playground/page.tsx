@@ -29,6 +29,7 @@ import { TemperatureSelector } from "./components/temperature-selector"
 import { TopPSelector } from "./components/top-p-selector"
 import { models, types } from "./data/models"
 import { presets } from "./data/presets"
+import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Playground",
@@ -40,14 +41,14 @@ export default function PlaygroundPage() {
     <>
       <div className="md:hidden">
         <Image
-          src="/examples/playground-light.png"
+          src={`${basePath}/examples/playground-light.png`}
           width={1280}
           height={916}
           alt="Playground"
           className="block dark:hidden"
         />
         <Image
-          src="/examples/playground-dark.png"
+          src={`${basePath}/examples/playground-dark.png`}
           width={1280}
           height={916}
           alt="Playground"

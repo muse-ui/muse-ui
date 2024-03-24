@@ -5,6 +5,7 @@ import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { UserAuthForm } from "@/app/(app)/examples/authentication/components/user-auth-form"
+import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Authentication",
@@ -16,14 +17,14 @@ export default function AuthenticationPage() {
     <>
       <div className="md:hidden">
         <Image
-          src="/examples/authentication-light.png"
+          src={`${basePath}/examples/authentication-light.png`}
           width={1280}
           height={843}
           alt="Authentication"
           className="block dark:hidden"
         />
         <Image
-          src="/examples/authentication-dark.png"
+          src={`${basePath}/examples/authentication-dark.png`}
           width={1280}
           height={843}
           alt="Authentication"

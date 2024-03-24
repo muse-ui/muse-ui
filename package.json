@@ -8,6 +8,12 @@
     "name": "shadcn",
     "url": "https://twitter.com/shadcn"
   },
+  "maintainers": [
+    {
+      "name": "kjxbyz",
+      "url": "https://github.com/kjxbyz"
+    }
+  ],
   "workspaces": [
     "apps/*",
     "packages/*",
@@ -15,12 +21,13 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:cli": "turbo --filter=shadcn-ui build",
+    "build:cli": "turbo --filter=muse-ui build",
     "build:registry": "pnpm --filter=www build:registry",
     "dev": "turbo run dev --parallel",
-    "cli:dev": "turbo --filter=shadcn-ui dev",
-    "cli:start": "pnpm --filter=shadcn-ui start:dev",
+    "cli:dev": "turbo --filter=muse-ui dev",
+    "cli:start": "pnpm --filter=muse-ui start:dev",
     "www:dev": "pnpm --filter=www dev",
+    "www:format": "pnpm --filter=www format:write",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "preview": "turbo run preview",

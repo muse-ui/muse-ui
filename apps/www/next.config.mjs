@@ -1,7 +1,11 @@
 import { createContentlayerPlugin } from "next-contentlayer"
 
+const basePath =
+  process.env.NEXT_PUBLIC_VERCEL_ENV === "production" ? "/muse-ui" : "";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath,
   reactStrictMode: true,
   swcMinify: true,
   images: {

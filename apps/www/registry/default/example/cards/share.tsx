@@ -23,6 +23,7 @@ import {
   SelectValue,
 } from "@/registry/default/ui/select"
 import { Separator } from "@/registry/default/ui/separator"
+import { basePath } from "@/constants"
 
 export function CardsShare() {
   return (
@@ -54,7 +55,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src="/avatars/03.png" alt="Image" />
+                  <AvatarImage src={`${basePath}/avatars/03.png`} alt="Image" />
                   <AvatarFallback>OM</AvatarFallback>
                 </Avatar>
                 <div>
@@ -77,7 +78,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src="/avatars/05.png" alt="Image" />
+                  <AvatarImage src={`${basePath}/avatars/05.png`} alt="Image" />
                   <AvatarFallback>IN</AvatarFallback>
                 </Avatar>
                 <div>
@@ -100,7 +101,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src="/avatars/01.png" alt="Image" />
+                  <AvatarImage src={`${basePath}/avatars/01.png`} alt="Image" />
                   <AvatarFallback>SD</AvatarFallback>
                 </Avatar>
                 <div>

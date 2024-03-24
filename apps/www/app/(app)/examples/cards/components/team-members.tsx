@@ -26,6 +26,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/registry/new-york/ui/popover"
+import { basePath } from "@/constants"
 
 export function DemoTeamMembers() {
   return (
@@ -40,7 +41,7 @@ export function DemoTeamMembers() {
         <div className="flex items-center justify-between space-x-4">
           <div className="flex items-center space-x-4">
             <Avatar>
-              <AvatarImage src="/avatars/01.png" />
+              <AvatarImage src={`${basePath}/avatars/01.png`} />
               <AvatarFallback>OM</AvatarFallback>
             </Avatar>
             <div>
@@ -94,7 +95,7 @@ export function DemoTeamMembers() {
         <div className="flex items-center justify-between space-x-4">
           <div className="flex items-center space-x-4">
             <Avatar>
-              <AvatarImage src="/avatars/02.png" />
+              <AvatarImage src={`${basePath}/avatars/02.png`} />
               <AvatarFallback>JL</AvatarFallback>
             </Avatar>
             <div>

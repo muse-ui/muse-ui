@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { basePath } from "@/constants"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -14,7 +15,6 @@ import {
 } from "@/components/page-header"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import MailPage from "@/app/(app)/examples/mail/page"
-import { basePath } from "@/constants"
 
 export default function IndexPage() {
   return (

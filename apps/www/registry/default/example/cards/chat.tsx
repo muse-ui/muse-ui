@@ -1,4 +1,5 @@
 import * as React from "react"
+import { basePath } from "@/constants"
 import { Check, Plus, Send } from "lucide-react"
 
 import { cn } from "@/lib/utils"
@@ -37,7 +38,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip"
-import { basePath } from "@/constants"
 
 const users = [
   {

@@ -1,3 +1,5 @@
+import { basePath } from "@/constants"
+
 import {
   Avatar,
   AvatarFallback,
@@ -14,7 +16,6 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@/registry/new-york/ui/dropdown-menu"
-import { basePath } from "@/constants"
 
 export function UserNav() {
   return (

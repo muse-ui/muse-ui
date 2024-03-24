@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Image from "next/image"
+import { basePath } from "@/constants"
 import { CounterClockwiseClockIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/registry/new-york/ui/button"
@@ -29,7 +30,6 @@ import { TemperatureSelector } from "./components/temperature-selector"
 import { TopPSelector } from "./components/top-p-selector"
 import { models, types } from "./data/models"
 import { presets } from "./data/presets"
-import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Playground",

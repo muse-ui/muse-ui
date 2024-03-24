@@ -1,5 +1,7 @@
 "use client"
 
+import { basePath } from "@/constants"
+
 import {
   Avatar,
   AvatarFallback,
@@ -22,7 +24,6 @@ import {
   SelectValue,
 } from "@/registry/new-york/ui/select"
 import { Separator } from "@/registry/new-york/ui/separator"
-import { basePath } from "@/constants"
 
 export function DemoShareDocument() {
   return (

@@ -1,3 +1,4 @@
+import { basePath } from "@/constants"
 import { ChevronDownIcon } from "@radix-ui/react-icons"
 
 import {
@@ -26,7 +27,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/registry/new-york/ui/popover"
-import { basePath } from "@/constants"
 
 export function DemoTeamMembers() {
   return (

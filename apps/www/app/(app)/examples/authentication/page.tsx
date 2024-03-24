@@ -1,11 +1,11 @@
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
+import { basePath } from "@/constants"
 
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/registry/new-york/ui/button"
 import { UserAuthForm } from "@/app/(app)/examples/authentication/components/user-auth-form"
-import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Authentication",

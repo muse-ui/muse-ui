@@ -1,5 +1,7 @@
 "use client"
 
+import { basePath } from "@/constants"
+
 import {
   Avatar,
   AvatarFallback,
@@ -23,7 +25,6 @@ import {
   SelectValue,
 } from "@/registry/default/ui/select"
 import { Separator } from "@/registry/default/ui/separator"
-import { basePath } from "@/constants"
 
 export function CardsShare() {
   return (

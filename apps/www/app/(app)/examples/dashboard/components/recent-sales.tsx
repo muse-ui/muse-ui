@@ -1,9 +1,10 @@
+import { basePath } from "@/constants"
+
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
 } from "@/registry/new-york/ui/avatar"
-import { basePath } from "@/constants"
 
 export function RecentSales() {
   return (

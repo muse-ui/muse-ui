@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Image from "next/image"
+import { basePath } from "@/constants"
 
 import { Button } from "@/registry/new-york/ui/button"
 import {
@@ -22,7 +23,6 @@ import { RecentSales } from "@/app/(app)/examples/dashboard/components/recent-sa
 import { Search } from "@/app/(app)/examples/dashboard/components/search"
 import TeamSwitcher from "@/app/(app)/examples/dashboard/components/team-switcher"
 import { UserNav } from "@/app/(app)/examples/dashboard/components/user-nav"
-import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Dashboard",

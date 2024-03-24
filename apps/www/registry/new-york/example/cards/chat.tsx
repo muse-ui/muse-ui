@@ -1,4 +1,5 @@
 import * as React from "react"
+import { basePath } from "@/constants"
 import { CheckIcon, PaperPlaneIcon, PlusIcon } from "@radix-ui/react-icons"
 
 import { cn } from "@/lib/utils"
@@ -37,7 +38,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/registry/new-york/ui/tooltip"
-import { basePath } from "@/constants"
 
 const users = [
   {

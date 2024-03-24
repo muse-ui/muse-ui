@@ -1,9 +1,9 @@
 import { Metadata } from "next"
 import Image from "next/image"
+import { basePath } from "@/constants"
 
 import { Separator } from "@/registry/new-york/ui/separator"
 import { SidebarNav } from "@/app/(app)/examples/forms/components/sidebar-nav"
-import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Forms",

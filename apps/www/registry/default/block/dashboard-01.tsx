@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { basePath } from "@/constants"
 import {
   Activity,
   ArrowUpRight,
@@ -43,7 +44,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/registry/default/ui/table"
-import { basePath } from "@/constants"
 
 export const description =
   "An application shell with a header and main content area. The header has a navbar, a search input and and a user nav dropdown. The user nav is toggled by a button with an avatar image."
@@ -374,7 +374,10 @@ export default function Dashboard() {
             <CardContent className="grid gap-8">
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src={`${basePath}/avatars/01.png`} alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/01.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>OM</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -389,7 +392,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src={`${basePath}/avatars/02.png`} alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/02.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>JL</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -404,7 +410,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src={`${basePath}/avatars/03.png`} alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/03.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>IN</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -419,7 +428,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src={`${basePath}/avatars/04.png`} alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/04.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>WK</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -434,7 +446,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src={`${basePath}/avatars/05.png`} alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/05.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>SD</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">

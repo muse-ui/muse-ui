@@ -1,5 +1,6 @@
 import { Metadata } from "next"
 import Image from "next/image"
+import { basePath } from "@/constants"
 import { PlusCircledIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/registry/new-york/ui/button"
@@ -18,7 +19,6 @@ import { PodcastEmptyPlaceholder } from "./components/podcast-empty-placeholder"
 import { Sidebar } from "./components/sidebar"
 import { listenNowAlbums, madeForYouAlbums } from "./data/albums"
 import { playlists } from "./data/playlists"
-import { basePath } from "@/constants"
 
 export const metadata: Metadata = {
   title: "Music App",

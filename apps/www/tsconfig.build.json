@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "strict": false,
+    "alwaysStrict": false,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "incremental": false, // https://github.com/egoist/tsup/issues/884
+    "jsx": "react-jsx", // https://github.com/egoist/tsup/issues/792
+  },
+}

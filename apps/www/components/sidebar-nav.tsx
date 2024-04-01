@@ -48,7 +48,7 @@ export function DocsSidebarNavItems({
             className={cn(
               "group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:underline",
               item.disabled && "cursor-not-allowed opacity-60",
-              pathname === item.href
+              pathname === `${item.href}/`
                 ? "font-medium text-foreground"
                 : "text-muted-foreground"
             )}

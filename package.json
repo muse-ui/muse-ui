@@ -29,6 +29,7 @@
     "cli:dev": "turbo --filter=cli dev",
     "cli:start": "pnpm --filter=cli start:dev",
     "muse:dev": "pnpm --filter=muse-ui dev",
+    "muse:pub": "pnpm --filter=muse-ui publish",
     "muse:format": "pnpm --filter=muse-ui format:write",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",

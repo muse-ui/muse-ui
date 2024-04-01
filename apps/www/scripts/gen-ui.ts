@@ -72,7 +72,7 @@ for (const file of files) {
 const pkgInfoPath = path.join(process.cwd(), "package.json")
 fs.writeFileSync(
   pkgInfoPath,
-  JSON.stringify({ ...(pkgInfo || {}), exports }, null, 2),
+  JSON.stringify({ ...(pkgInfo || {}), exports }, null, 2) + '\n',
   "utf8"
 )
 

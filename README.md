@@ -6,7 +6,7 @@ Accessible and customizable components that you can copy and paste into your app
 
 ## Documentation
 
-Visit https://kjxbyz.com/muse-ui/docs to view the documentation.
+Visit https://muse-ui.com/docs to view the documentation.
 
 ## Contributing
 

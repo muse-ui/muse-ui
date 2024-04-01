@@ -6,7 +6,21 @@ Accessible and customizable components that you can copy and paste into your app
 
 ## Documentation
 
-Visit https://kjxbyz.com/muse-ui/docs to view the documentation.
+Visit https://muse-ui.com/docs to view the documentation.
+
+## Publish
+
+### Alpha
+
+```shell
+pnpm muse:pub --dry-run --tag alpha
+```
+
+### Release
+
+```shell
+pnpm muse:pub --dry-run
+```
 
 ## License
 

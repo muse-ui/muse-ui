@@ -22,6 +22,7 @@
   "scripts": {
     "build": "turbo run build",
     "build:cli": "turbo --filter=cli build",
+    "build:muse": "pnpm --filter=muse-ui build",
     "build:registry": "pnpm --filter=muse-ui build:registry",
     "build:ui": "pnpm --filter=muse-ui build:ui",
     "gen:ui": "pnpm --filter=muse-ui gen:ui",

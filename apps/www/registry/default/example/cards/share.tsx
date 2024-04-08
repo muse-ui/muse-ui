@@ -1,7 +1,5 @@
 "use client"
 
-import { basePath } from "@/constants"
-
 import {
   Avatar,
   AvatarFallback,
@@ -56,7 +54,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src={`${basePath}/avatars/03.png`} alt="Image" />
+                  <AvatarImage src="/avatars/03.png" alt="Image" />
                   <AvatarFallback>OM</AvatarFallback>
                 </Avatar>
                 <div>
@@ -79,7 +77,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src={`${basePath}/avatars/05.png`} alt="Image" />
+                  <AvatarImage src="/avatars/05.png" alt="Image" />
                   <AvatarFallback>IN</AvatarFallback>
                 </Avatar>
                 <div>
@@ -102,7 +100,7 @@ export function CardsShare() {
             <div className="flex items-center justify-between space-x-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src={`${basePath}/avatars/01.png`} alt="Image" />
+                  <AvatarImage src="/avatars/01.png" alt="Image" />
                   <AvatarFallback>SD</AvatarFallback>
                 </Avatar>
                 <div>

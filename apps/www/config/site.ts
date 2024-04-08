@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Muse UI",
-  url: "https://www.kjxbyz.com/muse-ui",
-  ogImage: "https://www.kjxbyz.com/muse-ui/og.jpg",
+  url: "https://www.muse-ui.com",
+  ogImage: "https://www.muse-ui.com/og.jpg",
   description:
     "Beautifully designed components that you can copy and paste into your apps.",
   links: {

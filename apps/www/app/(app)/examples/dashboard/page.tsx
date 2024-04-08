@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 
 import { Button } from "@/registry/new-york/ui/button"
 import {
@@ -34,14 +33,14 @@ export default function DashboardPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/dashboard-light.png`}
+          src="/examples/dashboard-light.png"
           width={1280}
           height={866}
           alt="Dashboard"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/dashboard-dark.png`}
+          src="/examples/dashboard-dark.png"
           width={1280}
           height={866}
           alt="Dashboard"

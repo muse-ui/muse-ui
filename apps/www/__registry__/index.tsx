@@ -1275,9 +1275,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["input","button","label"],
       component: React.lazy(() => import("@/registry/default/example/input-with-password")),
+      source: "",
       files: ["registry/default/example/input-with-password.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "input-otp-demo": {
       name: "input-otp-demo",
@@ -3674,9 +3676,11 @@ export const Index: Record<string, any> = {
       type: "components:example",
       registryDependencies: ["input","button","label"],
       component: React.lazy(() => import("@/registry/new-york/example/input-with-password")),
+      source: "",
       files: ["registry/new-york/example/input-with-password.tsx"],
       category: "undefined",
       subcategory: "undefined",
+      chunks: []
     },
     "input-otp-demo": {
       name: "input-otp-demo",

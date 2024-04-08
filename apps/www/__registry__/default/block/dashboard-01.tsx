@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { basePath } from "@/constants"
 import {
   Activity,
   ArrowUpRight,
@@ -229,7 +230,9 @@ export default function Dashboard() {
           </Card>
         </div>
         <div className="grid gap-4 md:gap-8 lg:grid-cols-2 xl:grid-cols-3">
-          <Card className="xl:col-span-2" x-chunk="dashboard-01-chunk-4">
+          <Card
+            className="xl:col-span-2" x-chunk="dashboard-01-chunk-4"
+          >
             <CardHeader className="flex flex-row items-center">
               <div className="grid gap-2">
                 <CardTitle>Transactions</CardTitle>
@@ -373,7 +376,10 @@ export default function Dashboard() {
             <CardContent className="grid gap-8">
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src="/avatars/01.png" alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/01.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>OM</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -388,7 +394,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src="/avatars/02.png" alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/02.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>JL</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -403,7 +412,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src="/avatars/03.png" alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/03.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>IN</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -418,7 +430,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src="/avatars/04.png" alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/04.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>WK</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
@@ -433,7 +448,10 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
-                  <AvatarImage src="/avatars/05.png" alt="Avatar" />
+                  <AvatarImage
+                    src={`${basePath}/avatars/05.png`}
+                    alt="Avatar"
+                  />
                   <AvatarFallback>SD</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">

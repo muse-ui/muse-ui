@@ -1,6 +1,5 @@
 import { cookies } from "next/headers"
 import Image from "next/image"
-import { basePath } from "@/constants"
 
 import { Mail } from "@/app/(app)/examples/mail/components/mail"
 import { accounts, mails } from "@/app/(app)/examples/mail/data"
@@ -16,14 +15,14 @@ export default function MailPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/mail-dark.png`}
+          src="/examples/mail-dark.png"
           width={1280}
           height={727}
           alt="Mail"
           className="hidden dark:block"
         />
         <Image
-          src={`${basePath}/examples/mail-light.png`}
+          src="/examples/mail-light.png"
           width={1280}
           height={727}
           alt="Mail"

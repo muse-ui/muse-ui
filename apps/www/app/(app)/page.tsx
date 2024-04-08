@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { basePath } from "@/constants"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -44,14 +43,14 @@ export default function IndexPage() {
       <ExamplesNav className="[&>a:first-child]:text-primary" />
       <section className="overflow-hidden rounded-lg border bg-background shadow-md md:hidden md:shadow-xl">
         <Image
-          src={`${basePath}/examples/mail-dark.png`}
+          src="/examples/mail-dark.png"
           width={1280}
           height={727}
           alt="Mail"
           className="hidden dark:block"
         />
         <Image
-          src={`${basePath}/examples/mail-light.png`}
+          src="/examples/mail-light.png"
           width={1280}
           height={727}
           alt="Mail"

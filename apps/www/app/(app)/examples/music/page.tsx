@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 import { PlusCircledIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/registry/new-york/ui/button"
@@ -30,14 +29,14 @@ export default function MusicPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/music-light.png`}
+          src="/examples/music-light.png"
           width={1280}
           height={1114}
           alt="Music"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/music-dark.png`}
+          src="/examples/music-dark.png"
           width={1280}
           height={1114}
           alt="Music"

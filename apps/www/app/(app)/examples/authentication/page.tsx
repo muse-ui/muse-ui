@@ -1,7 +1,6 @@
 import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { basePath } from "@/constants"
 
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/registry/new-york/ui/button"
@@ -17,14 +16,14 @@ export default function AuthenticationPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/authentication-light.png`}
+          src="/examples/authentication-light.png"
           width={1280}
           height={843}
           alt="Authentication"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/authentication-dark.png`}
+          src="/examples/authentication-dark.png"
           width={1280}
           height={843}
           alt="Authentication"

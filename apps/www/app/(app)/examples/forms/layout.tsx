@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 
 import { Separator } from "@/registry/new-york/ui/separator"
 import { SidebarNav } from "@/app/(app)/examples/forms/components/sidebar-nav"
@@ -42,14 +41,14 @@ export default function SettingsLayout({ children }: SettingsLayoutProps) {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/forms-light.png`}
+          src="/examples/forms-light.png"
           width={1280}
           height={791}
           alt="Forms"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/forms-dark.png`}
+          src="/examples/forms-dark.png"
           width={1280}
           height={791}
           alt="Forms"

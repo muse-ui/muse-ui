@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 
 import { cn } from "@/lib/utils"
 
@@ -39,14 +38,14 @@ export default function CardsPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/cards-light.png`}
+          src="/examples/cards-light.png"
           width={1280}
           height={1214}
           alt="Cards"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/cards-dark.png`}
+          src="/examples/cards-dark.png"
           width={1280}
           height={1214}
           alt="Cards"

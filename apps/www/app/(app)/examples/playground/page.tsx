@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 import { CounterClockwiseClockIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/registry/new-york/ui/button"
@@ -41,14 +40,14 @@ export default function PlaygroundPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/playground-light.png`}
+          src="/examples/playground-light.png"
           width={1280}
           height={916}
           alt="Playground"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/playground-dark.png`}
+          src="/examples/playground-dark.png"
           width={1280}
           height={916}
           alt="Playground"

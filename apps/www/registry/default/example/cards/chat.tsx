@@ -1,5 +1,4 @@
 import * as React from "react"
-import { basePath } from "@/constants"
 import { Check, Plus, Send } from "lucide-react"
 
 import { cn } from "@/lib/utils"
@@ -100,7 +99,7 @@ export function CardsChat() {
         <CardHeader className="flex flex-row items-center">
           <div className="flex items-center space-x-4">
             <Avatar>
-              <AvatarImage src={`${basePath}/avatars/01.png`} alt="Image" />
+              <AvatarImage src="/avatars/01.png" alt="Image" />
               <AvatarFallback>OM</AvatarFallback>
             </Avatar>
             <div>

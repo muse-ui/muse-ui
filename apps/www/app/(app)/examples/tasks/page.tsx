@@ -2,7 +2,6 @@ import { promises as fs } from "fs"
 import path from "path"
 import { Metadata } from "next"
 import Image from "next/image"
-import { basePath } from "@/constants"
 import { z } from "zod"
 
 import { columns } from "./components/columns"
@@ -33,14 +32,14 @@ export default async function TaskPage() {
     <>
       <div className="md:hidden">
         <Image
-          src={`${basePath}/examples/tasks-light.png`}
+          src="/examples/tasks-light.png"
           width={1280}
           height={998}
           alt="Playground"
           className="block dark:hidden"
         />
         <Image
-          src={`${basePath}/examples/tasks-dark.png`}
+          src="/examples/tasks-dark.png"
           width={1280}
           height={998}
           alt="Playground"

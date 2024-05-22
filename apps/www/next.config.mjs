@@ -56,6 +56,12 @@ const nextConfig = {
       },
     ]
   },
+  webpack: (config, options) => {
+    // https://github.com/microsoft/TypeScript/issues/39436#issuecomment-1081251931
+    config.module.noParse =  /typescript/;
+
+    return config
+  },
 }
 
 const withContentlayer = createContentlayerPlugin({

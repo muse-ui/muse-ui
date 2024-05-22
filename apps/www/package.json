@@ -41,6 +41,7 @@
     "prepublish": "pnpm gen:ui && pnpm build:ui"
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.2",
     "@faker-js/faker": "^8.2.0",
     "@hookform/resolvers": "^3.1.0",
     "@radix-ui/react-accessible-icon": "^1.0.3",
@@ -83,7 +84,7 @@
     "date-fns": "^2.30.0",
     "embla-carousel-autoplay": "8.0.0-rc15",
     "embla-carousel-react": "8.0.0-rc15",
-    "framer-motion": "^11.0.24",
+    "framer-motion": "^11.0.28",
     "geist": "^1.2.2",
     "input-otp": "^1.2.2",
     "jotai": "^2.1.0",

@@ -26,7 +26,8 @@
   },
   "scripts": {
     "dev": "next dev -p 3003",
-    "build": "contentlayer build && pnpm build:registry && next build",
+    "build": "pnpm build:docs && pnpm build:registry && next build",
+    "build:docs": "contentlayer build",
     "build:registry": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --loglevel silent --write \"registry/**/*.{ts,tsx,mdx}\" --cache",
     "build:ui": "tsup",
     "gen:ui": "tsx ./scripts/gen-ui.ts",

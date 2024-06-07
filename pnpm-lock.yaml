@@ -58,7 +58,7 @@ importers:
         version: 7.32.2(eslint@8.41.0)
       eslint-plugin-tailwindcss:
         specifier: ^3.12.0
-        version: 3.12.0(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5)))
+        version: 3.12.0(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)))
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -73,10 +73,10 @@ importers:
         version: 3.1.3(prettier@2.8.8)
       tailwindcss:
         specifier: ^3.4.0
-        version: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
+        version: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))
       tailwindcss-animate:
         specifier: ^1.0.5
-        version: 1.0.5(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5)))
+        version: 1.0.5(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)))
       tsx:
         specifier: ^4.1.4
         version: 4.7.0
@@ -471,7 +471,7 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0
       typescript:
-        specifier: ^4.9.3
+        specifier: ^4.9.5
         version: 4.9.5
 
   templates/next-template:
@@ -551,7 +551,7 @@ importers:
         version: 2.8.8
       tailwindcss:
         specifier: ^3.4.0
-        version: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
+        version: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
@@ -4072,12 +4072,15 @@ packages:
 
   glob@7.1.6:
     resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@7.1.7:
     resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@9.3.5:
     resolution: {integrity: sha512-e1LleDykUz2Iu+MTYdkSsuWX8lvAjAcs0Xef0lNIu0S2wOAzuTxCJtcd9S3cijlwYF18EsU3rzb8jPVobxDh9Q==}
@@ -4281,6 +4284,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -4293,6 +4297,7 @@ packages:
 
   input-otp@1.2.2:
     resolution: {integrity: sha512-9x6UurPuc9Tb+ywWFcFrG4ryvScSmfLyj8D35dl/HNpSr9jZNtWiXufU65kaDHD/KYUop7hDFH+caZCUKdYNsg==}
+    deprecated: 'please run: npm install input-otp@latest'
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -4725,6 +4730,7 @@ packages:
 
   loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
+    deprecated: Please upgrade to 2.3.7 which fixes GHSA-4q6p-r6v2-jvc5
 
   lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
@@ -5792,6 +5798,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@4.4.1:
@@ -7365,13 +7372,13 @@ snapshots:
       '@types/node': 18.19.26
       chalk: 4.1.2
       cosmiconfig: 8.1.3
-      cosmiconfig-typescript-loader: 4.3.0(@types/node@18.19.26)(cosmiconfig@8.1.3)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))(typescript@4.9.5)
+      cosmiconfig-typescript-loader: 4.3.0(@types/node@18.19.26)(cosmiconfig@8.1.3)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))(typescript@5.4.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
       ts-node: 10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)
-      typescript: 4.9.5
+      typescript: 5.4.2
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -9963,12 +9970,12 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@4.3.0(@types/node@18.19.26)(cosmiconfig@8.1.3)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))(typescript@4.9.5):
+  cosmiconfig-typescript-loader@4.3.0(@types/node@18.19.26)(cosmiconfig@8.1.3)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))(typescript@5.4.2):
     dependencies:
       '@types/node': 18.19.26
       cosmiconfig: 8.1.3
       ts-node: 10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)
-      typescript: 4.9.5
+      typescript: 5.4.2
 
   cosmiconfig@8.1.3:
     dependencies:
@@ -10617,11 +10624,11 @@ snapshots:
       semver: 6.3.0
       string.prototype.matchall: 4.0.8
 
-  eslint-plugin-tailwindcss@3.12.0(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))):
+  eslint-plugin-tailwindcss@3.12.0(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))):
     dependencies:
       fast-glob: 3.3.0
       postcss: 8.4.38
-      tailwindcss: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
+      tailwindcss: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))
 
   eslint-plugin-tailwindcss@3.13.0(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))):
     dependencies:
@@ -12713,7 +12720,7 @@ snapshots:
       postcss: 8.4.38
       ts-node: 10.9.1(@swc/core@1.4.12(@swc/helpers@0.5.2))(@types/node@18.19.26)(typescript@5.4.2)
 
-  postcss-load-config@4.0.1(postcss@8.4.38)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5)):
+  postcss-load-config@4.0.1(postcss@8.4.38)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)):
     dependencies:
       lilconfig: 2.1.0
       yaml: 2.3.1
@@ -13569,9 +13576,9 @@ snapshots:
 
   tailwind-merge@1.13.2: {}
 
-  tailwindcss-animate@1.0.5(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))):
+  tailwindcss-animate@1.0.5(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))):
     dependencies:
-      tailwindcss: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
+      tailwindcss: 3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))
 
   tailwindcss-animate@1.0.6(tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))):
     dependencies:
@@ -13604,33 +13611,6 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5)):
-    dependencies:
-      '@alloc/quick-lru': 5.2.0
-      arg: 5.0.2
-      chokidar: 3.5.3
-      didyoumean: 1.2.2
-      dlv: 1.1.3
-      fast-glob: 3.3.0
-      glob-parent: 6.0.2
-      is-glob: 4.0.3
-      jiti: 1.21.0
-      lilconfig: 2.1.0
-      micromatch: 4.0.5
-      normalize-path: 3.0.0
-      object-hash: 3.0.0
-      picocolors: 1.0.0
-      postcss: 8.4.38
-      postcss-import: 15.1.0(postcss@8.4.38)
-      postcss-js: 4.0.1(postcss@8.4.38)
-      postcss-load-config: 4.0.1(postcss@8.4.38)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
-      postcss-nested: 6.0.1(postcss@8.4.38)
-      postcss-selector-parser: 6.0.13
-      resolve: 1.22.2
-      sucrase: 3.32.0
-    transitivePeerDependencies:
-      - ts-node
-
   tailwindcss@3.4.0(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
@@ -13650,7 +13630,7 @@ snapshots:
       postcss: 8.4.38
       postcss-import: 15.1.0(postcss@8.4.38)
       postcss-js: 4.0.1(postcss@8.4.38)
-      postcss-load-config: 4.0.1(postcss@8.4.38)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@4.9.5))
+      postcss-load-config: 4.0.1(postcss@8.4.38)(ts-node@10.9.1(@swc/core@1.4.12)(@types/node@18.19.26)(typescript@5.4.2))
       postcss-nested: 6.0.1(postcss@8.4.38)
       postcss-selector-parser: 6.0.13
       resolve: 1.22.2

@@ -114,7 +114,7 @@
     "@shikijs/compat": "^1.1.7",
     "@swc/core": "^1.4.8",
     "@types/lodash.template": "^4.5.1",
-    "@types/node": "^18.19.26",
+    "@types/node": "^18.19.39",
     "@types/react": "18.2.65",
     "@types/react-color": "^3.0.6",
     "@types/react-dom": "^18.2.22",

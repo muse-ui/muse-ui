@@ -426,6 +426,12 @@ export const examples: Registry = [
     files: ["example/input-with-text.tsx"],
   },
   {
+    name: "input-with-password",
+    type: "components:example",
+    registryDependencies: ["input", "button", "label"],
+    files: ["example/input-with-password.tsx"],
+  },
+  {
     name: "input-otp-demo",
     type: "components:example",
     registryDependencies: ["input-otp"],

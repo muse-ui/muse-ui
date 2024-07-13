@@ -2,6 +2,7 @@ import { createContentlayerPlugin } from "next-contentlayer"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: true,
   reactStrictMode: true,
   swcMinify: true,
   images: {
@@ -54,6 +55,12 @@ const nextConfig = {
         permanent: false,
       },
     ]
+  },
+  webpack: (config, options) => {
+    // https://github.com/microsoft/TypeScript/issues/39436#issuecomment-1081251931
+    config.module.noParse =  /typescript/;
+
+    return config
   },
 }
 

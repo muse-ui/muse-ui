@@ -28,10 +28,15 @@
   },
   "include": [
     "next-env.d.ts",
+    "process.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
   ],
-  "exclude": ["node_modules", "./scripts/build-registry.mts"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts"
+  ]
 }

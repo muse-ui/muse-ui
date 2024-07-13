@@ -10,12 +10,12 @@ const files = fs.readdirSync(baseUIPath, { withFileTypes: true })
 const exports = {
   ".": {
     import: {
-      types: "./dist/default/index.d.mts",
-      default: "./dist/default/index.mjs",
-    },
-    require: {
       types: "./dist/default/index.d.ts",
       default: "./dist/default/index.js",
+    },
+    require: {
+      types: "./dist/default/index.d.cts",
+      default: "./dist/default/index.cjs",
     },
   },
 }
@@ -37,12 +37,12 @@ for (const file of files) {
 
     exports[`./${type}`] = {
       import: {
-        types: `./dist/${type}/index.d.mts`,
-        default: `./dist/${type}/index.mjs`,
-      },
-      require: {
         types: `./dist/${type}/index.d.ts`,
         default: `./dist/${type}/index.js`,
+      },
+      require: {
+        types: `./dist/${type}/index.d.cts`,
+        default: `./dist/${type}/index.cjs`,
       },
     }
 
@@ -56,12 +56,12 @@ for (const file of files) {
 
       exports[`./${type}/${componentName}`] = {
         import: {
-          types: `./dist/${type}/${componentName}.d.mts`,
-          default: `./dist/${type}/${componentName}.mjs`,
-        },
-        require: {
           types: `./dist/${type}/${componentName}.d.ts`,
           default: `./dist/${type}/${componentName}.js`,
+        },
+        require: {
+          types: `./dist/${type}/${componentName}.d.cts`,
+          default: `./dist/${type}/${componentName}.cjs`,
         },
       }
     }

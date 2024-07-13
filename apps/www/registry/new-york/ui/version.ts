@@ -1,5 +1,5 @@
-import * as pkgInfo from "../../../package.json";
+import * as pkgInfo from "../../../package.json"
 
-export const version = pkgInfo.version;
+export const version = pkgInfo.version
 
-export default version;
+export default version

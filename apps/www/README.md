@@ -1,12 +1,10 @@
 # muse-ui
 
-[![npm version](https://badgen.net/npm/v/muse-ui)](https://npm.im/muse-ui) [![npm downloads](https://badgen.net/npm/dm/muse-ui)](https://npm.im/muse-ui)
-
-Accessible and customizable components that you can copy and paste into your apps. **Use this to build your own component library**.
+[![NPM Version](https://img.shields.io/npm/v/muse-ui)](https://www.npmjs.com/package/muse-ui) [![NPM Downloads](https://img.shields.io/npm/dy/muse-ui)](https://www.npmjs.com/package/muse-ui)
 
 ## Documentation
 
-Visit https://muse-ui.com/docs to view the documentation.
+Visit <https://muse-ui.com/docs> to view the documentation.
 
 ## Publish
 

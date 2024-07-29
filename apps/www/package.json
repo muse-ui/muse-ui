@@ -1,6 +1,6 @@
 {
   "name": "muse-ui",
-  "version": "4.0.0-alpha.4",
+  "version": "4.0.0-alpha.5",
   "description": "Build your own component library based on shadcn-ui.",
   "keywords": [
     "muse",

@@ -1,9 +1,9 @@
-// @sts-nocheck
+// @ts-nocheck
 import { existsSync, promises as fs, readFileSync } from "fs"
 import { tmpdir } from "os"
 import path, { basename } from "path"
 import { cwd } from "process"
-import template from "lodash"
+import { template } from "lodash-es"
 import { rimraf } from "rimraf"
 import { Project, ScriptKind, SyntaxKind } from "ts-morph"
 
